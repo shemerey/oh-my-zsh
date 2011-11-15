@@ -19,6 +19,8 @@ alias lsa='ls -lah'
 alias l='ls -la'
 alias ll='ls -l'
 alias sl=ls # often screw this up
+alias v=mvim
 
+alias ctagsr='ctags -R --languages="Ruby"'
 alias afind='ack-grep -il'
 

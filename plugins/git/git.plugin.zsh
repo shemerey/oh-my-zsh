@@ -1,6 +1,8 @@
 # Aliases
 alias g='git'
 compdef g=git
+alias gsmu='git submodule foreach "git checkout master && git pull origin master"'
+compdef _git gsmu=git-submodule
 alias gst='git status'
 compdef _git gst=git-status
 alias gl='git pull'
