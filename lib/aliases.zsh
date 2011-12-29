@@ -7,7 +7,7 @@ alias ...='cd ../..'
 alias -- -='cd -'
 
 # Super user
-alias _='sudo'
+alias ss='sudo -s'
 
 #alias g='grep -in'
 
@@ -25,4 +25,4 @@ alias man="gem man -s"
 
 alias ctagsr='ctags -R --languages="Ruby"'
 alias afind='ack-grep -il'
-
+alias pryr='pry -r ./config/environment -r rails/console/app -r rails/console/helpers'
